@@ -103,7 +103,7 @@
 					</descriptorRefs>
 				</configuration>
 			</plugin>
-			<!-- sure-fire (test) plugin -->
+				<!-- sure-fire (test) plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -201,8 +201,8 @@
 				<version>0.10</version>
 				<configuration>
 					<message>Creating site for ${project.version}</message>
-					<repositoryName>com.bitplan.rest.freemarker</repositoryName>    <!-- github repo name -->
-					<repositoryOwner>BITPlan</repositoryOwner>                      <!-- github username -->
+					<repositoryName>CrazyBeans</repositoryName>      <!-- github repo name -->
+					<repositoryOwner>BITPlan</repositoryOwner>    <!-- github username -->
 				</configuration>
 				<executions>
 					<execution>
