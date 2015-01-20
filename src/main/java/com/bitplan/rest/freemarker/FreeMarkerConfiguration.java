@@ -122,4 +122,15 @@ public class FreeMarkerConfiguration {
 		template.process(rootMap,htmlWriter);
 		return htmlWriter.toString();
 	}
+	
+	/**
+	 * dummy main routine
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	  System.err.println("This is a Freemarker utility Library.");
+	  System.err.println("It's available at https://github.com/BITPlan/com.bitplan.rest.freemarker");
+	  System.err.println("There is no commandline support at this time");
+	  System.exit(1);
+	}
 }
