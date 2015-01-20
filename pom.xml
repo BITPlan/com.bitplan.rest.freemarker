@@ -40,6 +40,7 @@
 	</developers>
 	<properties>
 		<freemarker.version>2.3.21</freemarker.version>
+		<junit4.version>4.11</junit4.version>
 	</properties>
 	<dependencies>
 		<!-- freemarker template -->
@@ -47,6 +48,13 @@
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
 			<version>${freemarker.version}</version>
+		</dependency>
+		<!-- JUnit testing -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit4.version}</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 	<build>
@@ -194,7 +202,7 @@
 				<configuration>
 					<message>Creating site for ${project.version}</message>
 					<repositoryName>com.bitplan.rest.freemarker</repositoryName>    <!-- github repo name -->
-					<repositoryOwner>BITPlan</repositoryOwner>    <!-- github username -->
+					<repositoryOwner>BITPlan</repositoryOwner>                      <!-- github username -->
 				</configuration>
 				<executions>
 					<execution>
