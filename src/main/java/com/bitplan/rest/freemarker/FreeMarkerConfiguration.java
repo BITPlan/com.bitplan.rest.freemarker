@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2012-2014 BITPlan GmbH
+ * Copyright (C) 2012-2015 BITPlan GmbH
  *
  * Pater-Delp-Str. 1
  * D-47877 Willich-Schiefbahn
@@ -124,8 +124,10 @@ public class FreeMarkerConfiguration {
 	}
 	
 	/**
-	 * dummy main routine
-	 * @param args
+	 * dummy main routine - will print out hint that this is a library and exit
+	 * with error code 1
+	 * 
+	 * @param args - the command line arguments
 	 */
 	public static void main(String[] args) {
 	  System.err.println("This is a Freemarker utility Library.");
