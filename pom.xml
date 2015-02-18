@@ -207,7 +207,7 @@
 				<version>0.10</version>
 				<configuration>
 					<message>Creating site for ${project.version}</message>
-					<repositoryName>CrazyBeans</repositoryName>      <!-- github repo name -->
+					<repositoryName>com.bitplan.rest.freemarker</repositoryName>      <!-- github repo name -->
 					<repositoryOwner>BITPlan</repositoryOwner>    <!-- github username -->
 				</configuration>
 				<executions>
