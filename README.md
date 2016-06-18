@@ -2,8 +2,14 @@ com.bitplan.rest.freemarker
 ===========================
 
 ## Project
+[![Build Status](https://travis-ci.org/BITPlan/com.bitplan.rest.freemarker.svg?branch=master)](https://travis-ci.org/BITPlan/com.bitplan.rest.freemarker)
+
 Freemarker Template Configuration Utility - allows to mix templates in classpath and from filepaths - sets some
 predefinitions and has a processTemplate function
+
+* Open Source hosted at https://github.com/BITPlan/com.bitplan.rest.freemarker
+* License based on license of libraries used (see [pom.xml](https://github.com/BITPlan/com.bitplan.rest.freemarker/blob/master/pom.xml))
+* Maven based Java project including JUnit 4 tests.
 
 ### Documentation
 * [Javadoc](http://bitplan.github.io/com.bitplan.rest.freemarker/apidocs/index.html)
