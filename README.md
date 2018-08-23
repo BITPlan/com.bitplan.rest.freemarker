@@ -1,33 +1,40 @@
-com.bitplan.rest.freemarker
-===========================
+### com.bitplan.rest.freemarker
+[Freemarker (http://freemarker.org/) support for BITPlan RESTful applications](http://www.bitplan.com/Freemarker) 
 
-## Project
-[![Build Status](https://travis-ci.org/BITPlan/com.bitplan.rest.freemarker.svg?branch=master)](https://travis-ci.org/BITPlan/com.bitplan.rest.freemarker)
-
-Freemarker Template Configuration Utility - allows to mix templates in classpath and from filepaths - sets some
-predefinitions and has a processTemplate function
-
-* Open Source hosted at https://github.com/BITPlan/com.bitplan.rest.freemarker
-* License based on license of libraries used (see [pom.xml](https://github.com/BITPlan/com.bitplan.rest.freemarker/blob/master/pom.xml))
-* Maven based Java project including JUnit 4 tests.
+[![Travis (.org)](https://img.shields.io/travis/BITPlan/com.bitplan.rest.freemarker.svg)](https://travis-ci.org/BITPlan/com.bitplan.rest.freemarker)
+[![Maven Central](https://img.shields.io/maven-central/v/com.bitplan/com.bitplan.rest.freemarker.svg)](https://search.maven.org/artifact/com.bitplan/com.bitplan.rest.freemarker/0.0.2/jar)
+[![GitHub issues](https://img.shields.io/github/issues/BITPlan/com.bitplan.rest.freemarker.svg)](https://github.com/BITPlan/com.bitplan.rest.freemarker/issues)
+[![GitHub issues](https://img.shields.io/github/issues-closed/BITPlan/com.bitplan.rest.freemarker.svg)](https://github.com/BITPlan/com.bitplan.rest.freemarker/issues/?q=is%3Aissue+is%3Aclosed)
+[![GitHub](https://img.shields.io/github/license/BITPlan/com.bitplan.rest.freemarker.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![BITPlan](http://wiki.bitplan.com/images/wiki/thumb/3/38/BITPlanLogoFontLessTransparent.png/198px-BITPlanLogoFontLessTransparent.png)](http://www.bitplan.com)
 
 ### Documentation
-* [Javadoc](http://bitplan.github.io/com.bitplan.rest.freemarker/apidocs/index.html)
+* [Wiki](http://www.bitplan.com/Freemarker)
+* [com.bitplan.rest.freemarker Project pages](https://BITPlan.github.io/com.bitplan.rest.freemarker)
+* [Javadoc](https://BITPlan.github.io/com.bitplan.rest.freemarker/apidocs/index.html)
+* [Test-Report](https://BITPlan.github.io/com.bitplan.rest.freemarker/surefire-report.html)
+### Maven dependency
 
-### Distribution
-Available at Maven Central see 
-
-http://search.maven.org/#artifactdetails|com.bitplan|com.bitplan.rest.freemarker|0.0.1|jar
-
-Maven dependency:
-
+Maven dependency
 ```xml
 <dependency>
   <groupId>com.bitplan</groupId>
   <artifactId>com.bitplan.rest.freemarker</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 </dependency>
 ```
 
+[Current release at repo1.maven.org](http://repo1.maven.org/maven2/com/bitplan/com.bitplan.rest.freemarker/0.0.2/)
+
+### How to build
+```
+git clone https://github.com/BITPlan/com.bitplan.rest.freemarker
+cd com.bitplan.rest.freemarker
+mvn install
+```
+### Motivation
+This is Freemarker Template Configuration Utility - allows to mix templates in classpath and from filepaths - sets some predefinitions and has a processTemplate function that simplifies the call of freemarker
 ## Version history
 * 0.0.1: 2015-01-20 First release via GitHub / Maven central
+* 0.0.2: 2018-08-23 Upgrades to Java 8 and user com.bitplan.pom parent
+
