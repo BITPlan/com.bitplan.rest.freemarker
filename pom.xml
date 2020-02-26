@@ -14,7 +14,7 @@
 	<artifactId>com.bitplan.rest.freemarker</artifactId>
 	<packaging>jar</packaging>
 	<name>com.bitplan.rest.freemarker</name>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<description>Freemarker (http://freemarker.org/) support for BITPlan RESTful applications</description>
 	<properties>
 		<!-- to make parent pom work -->
