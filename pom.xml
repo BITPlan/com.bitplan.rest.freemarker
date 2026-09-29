@@ -21,7 +21,7 @@
 		<github.project>com.bitplan.rest.freemarker</github.project>
 		<documentation.wiki>http://www.bitplan.com/Freemarker</documentation.wiki>
 		<!-- Dependency versions -->
-		<freemarker.version>2.3.21</freemarker.version>
+		<freemarker.version>2.3.35</freemarker.version>
 	</properties>
 	<dependencies>
 		<!-- freemarker template -->
